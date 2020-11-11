@@ -8,7 +8,12 @@
 
 @font-face {
 	font-family: Alba;
-	src: url("ASSETS/ALBA.TTF");
+	src: url("assets/ALBA____.TTF");
+}
+
+@font-face {
+	font-family: "disco 3 fenotype";
+	src: url("assets/Disco3.ttf");
 }
 
 body {
@@ -81,9 +86,21 @@ video {
 
 .ewf-title {
 	width: 92%;
-	height: 2.3%;
+	height: 10%;
 	padding: 10px;
-	font-size: 20pt;
+	font-size: 25pt;
+	font-family: "disco 3 fenotype";
+	border-bottom: dotted;
+	background: white;
+	float: left;
+}
+
+.ewf-title1 {
+	width: 92%;
+	height: 20%;
+	padding: 10px;
+	font-size: 25pt;
+	font-family: "disco 3 fenotype";
 	border-bottom: dotted;
 	background: white;
 	float: left;
@@ -117,6 +134,162 @@ video {
 	cursor: pointer;
 }
 
+.ewf-subjects3 {
+	width: 12.2%;
+	height: 18%;
+	margin: 5px;
+	margin-left: 10px;
+	/*background: cyan;*/
+	font-size: 20pt;
+	border: solid;
+	border-radius: 20px;
+	transition: ease transfrom .2s;
+	float: left;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.ewf-subjects1 {
+	width: 12.2%;
+	height: 18%;
+	margin: 5px;
+	margin-left: 10px;
+	background: cyan;
+	font-size: 20pt;
+	border: solid;
+	border-radius: 20px;
+	transition: ease transfrom .2s;
+	float: left;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
 .ewf-subjects:hover {
-	transform: scale(1.2);
+	transform: scale(1.05);
+}
+
+.member-textbox {
+	width: 25%;
+	height: 90%;
+	margin: 0.9%;
+	padding: 0.9%;
+	background: yellow;
+	float: left;
+	overflow: scroll;
+	position: relative;
+}
+
+.member-imagebox2 {
+	width: 41%;
+	height: 90%;
+	margin: 0.9%;
+	padding: 0.9%;
+	background: pink;
+	float: left;
+	overflow: scroll;
+	position: relative;
+}
+
+.member-imagebox {
+	width: 23%;
+	height: 90%;
+	margin: 0.9%;
+	padding: 0.9%;
+	background: cyan;
+	float: left;
+	position: relative;
+}
+
+.ewf-topbox {
+	width: 100%;
+	height: 4%;
+	/*background: pink;*/
+	font-family: Alba;
+	font-size: 15pt;
+	border-bottom: dashed 0.5pt;
+	display: flex;
+}
+
+.ewf-back {
+	width: 26%;
+	margin: 5px;
+	margin-left: 10px;
+	/*background: white;*/
+	float: left;
+}
+
+#ewf-maurice-white {
+	width: 78%;
+	height: 96.5%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 1%;
+	background: #9FFFAD;
+	font-family: Courier;
+	position: absolute;
+	display: none;
+}
+
+#ewf-philip-bailey {
+	width: 78%;
+	height: 96.5%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 1%;
+	background: #9FFFAD;
+	font-family: Courier;
+	position: absolute;
+	display: none;
+}
+
+#ewf-verdine-white {
+	width: 78%;
+	height: 96.5%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 1%;
+	background: #9FFFAD;
+	font-family: Courier;
+	position: absolute;
+	display: none;
+}
+
+#ewf-al-mckay {
+	width: 78%;
+	height: 96.5%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 1%;
+	background: #9FFFAD;
+	font-family: Courier;
+	position: absolute;
+	display: none;
+}
+
+#ewf-ralph-johnson {
+	width: 78%;
+	height: 96.5%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 1%;
+	background: #9FFFAD;
+	font-family: Courier;
+	position: absolute;
+	display: none;
+}
+
+#ewf-andrew-woolfolk {
+	width: 78%;
+	height: 96.5%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 1%;
+	background: #9FFFAD;
+	font-family: Courier;
+	position: absolute;
+	display: none;
 }
