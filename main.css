@@ -75,6 +75,22 @@ video {
 	overflow-y: scroll;
 }
 
+.ewf-rightbox-albums {
+	width: 80%;
+	height: 100%;
+	/*background: purple;*/
+	float: right;
+	overflow-y: scroll;
+}
+
+.ewf-rightbox-albums {
+	width: 80%;
+	height: 100%;
+	/*background: purple;*/
+	float: right;
+	overflow-y: scroll;
+}
+
 .ewf-leftbar {
 	width: 19%;
 	height: 99%;
@@ -106,6 +122,17 @@ video {
 	float: left;
 }
 
+.ewf-title2 {
+	width: 92%;
+	height: 10%;
+	padding: 10px;
+	font-size: 25pt;
+	font-family: "disco 3 fenotype";
+	/*border-bottom: dotted;*/
+	/*background: white;*/
+	float: left;
+}
+
 .ewf-main-subjects {
 	width: 90%;
 	height: 2%;
@@ -131,6 +158,26 @@ video {
 	align-items: center;
 	justify-content: center;
 	display: flex;
+	cursor: pointer;
+}
+
+.ewf-albums {
+	width: 20%;
+	height: 28%;
+	margin: 4%;;
+	margin-top: 5%;
+	margin-left: 8%;
+	/*background: cyan;*/
+	font-size: 20pt;
+	border: solid;
+	border-radius: 20px;
+	transition: ease transfrom .2s;
+	float: left;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	overflow: hidden;
 	cursor: pointer;
 }
 
@@ -172,45 +219,41 @@ video {
 	transform: scale(1.05);
 }
 
+.ewf-albums:hover {
+	transform: scale(1.5);
+}
+
 .member-textbox {
-	width: 25%;
-	height: 90%;
+	width: 32%;
+	height: 97%;
 	margin: 0.9%;
 	padding: 0.9%;
+	top: -7%;
 	background: yellow;
 	float: left;
 	overflow: scroll;
 	position: relative;
 }
 
-.member-imagebox2 {
-	width: 41%;
-	height: 90%;
-	margin: 0.9%;
-	padding: 0.9%;
-	background: pink;
-	float: left;
-	overflow: scroll;
-	position: relative;
-}
-
 .member-imagebox {
-	width: 23%;
+	width: 60%;
 	height: 90%;
 	margin: 0.9%;
 	padding: 0.9%;
 	background: cyan;
 	float: left;
+	overflow: scroll;
 	position: relative;
 }
 
 .ewf-topbox {
 	width: 100%;
 	height: 4%;
-	/*background: pink;*/
+	background: pink;
 	font-family: Alba;
 	font-size: 15pt;
 	border-bottom: dashed 0.5pt;
+	justify-content: center;
 	display: flex;
 }
 
@@ -247,18 +290,6 @@ video {
 }
 
 #ewf-verdine-white {
-	width: 78%;
-	height: 96.5%;
-	margin-top: 6px;
-	margin-left: 4px;
-	right: 1%;
-	background: #9FFFAD;
-	font-family: Courier;
-	position: absolute;
-	display: none;
-}
-
-#ewf-al-mckay {
 	width: 78%;
 	height: 96.5%;
 	margin-top: 6px;
