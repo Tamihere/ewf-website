@@ -83,12 +83,34 @@ video {
 	overflow-y: scroll;
 }
 
-.ewf-rightbox-albums {
-	width: 80%;
-	height: 100%;
-	/*background: purple;*/
-	float: right;
-	overflow-y: scroll;
+.ewf-rightbox-disco {
+	width: 78%;
+	height: 96.5%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 1%;
+	background: #9FFFAD;
+	position: absolute;
+}
+
+.ewf-rightbox-funk {
+	width: 78%;
+	height: 96.5%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 1%;
+	background: #9FFFAD;
+	position: absolute;
+}
+
+.ewf-rightbox-rnb {
+	width: 78%;
+	height: 96.5%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 1%;
+	background: #9FFFAD;
+	position: absolute;
 }
 
 .ewf-leftbar {
@@ -141,6 +163,21 @@ video {
 	padding: 10px;
 	/*background: white;*/
 	float: left;
+}
+
+.ewf-songs {
+	width: 40%;
+	height: 5%;
+	/*background: cyan;*/
+	font-size: 20pt;
+	border: solid;
+	border-radius: 20px;
+	transition: ease transfrom .2s;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	cursor: pointer;
 }
 
 .ewf-subjects {
@@ -246,6 +283,75 @@ video {
 	position: relative;
 }
 
+.disco-textbox {
+	width: 32%;
+	height: 97%;
+	margin: 0.9%;
+	padding: 0.9%;
+	top: -3%;
+	background: yellow;
+	float: left;
+	overflow: scroll;
+	position: relative;
+}
+
+.disco-imagebox {
+	width: 60%;
+	height: 94%;
+	margin: 0.9%;
+	padding: 0.9%;
+	background: cyan;
+	float: left;
+	overflow: scroll;
+	position: relative;
+}
+
+.funk-textbox {
+	width: 32%;
+	height: 97%;
+	margin: 0.9%;
+	padding: 0.9%;
+	top: -3%;
+	background: yellow;
+	float: left;
+	overflow: scroll;
+	position: relative;
+}
+
+.funk-imagebox {
+	width: 60%;
+	height: 94%;
+	margin: 0.9%;
+	padding: 0.9%;
+	background: cyan;
+	float: left;
+	overflow: scroll;
+	position: relative;
+}
+
+.rnb-textbox {
+	width: 32%;
+	height: 97%;
+	margin: 0.9%;
+	padding: 0.9%;
+	top: -3%;
+	background: yellow;
+	float: left;
+	overflow: scroll;
+	position: relative;
+}
+
+.rnb-imagebox {
+	width: 60%;
+	height: 94%;
+	margin: 0.9%;
+	padding: 0.9%;
+	background: cyan;
+	float: left;
+	overflow: scroll;
+	position: relative;
+}
+
 .ewf-topbox {
 	width: 100%;
 	height: 4%;
@@ -272,7 +378,6 @@ video {
 	margin-left: 4px;
 	right: 1%;
 	background: #9FFFAD;
-	font-family: Courier;
 	position: absolute;
 	display: none;
 }
@@ -284,7 +389,6 @@ video {
 	margin-left: 4px;
 	right: 1%;
 	background: #9FFFAD;
-	font-family: Courier;
 	position: absolute;
 	display: none;
 }
@@ -296,7 +400,6 @@ video {
 	margin-left: 4px;
 	right: 1%;
 	background: #9FFFAD;
-	font-family: Courier;
 	position: absolute;
 	display: none;
 }
@@ -308,7 +411,6 @@ video {
 	margin-left: 4px;
 	right: 1%;
 	background: #9FFFAD;
-	font-family: Courier;
 	position: absolute;
 	display: none;
 }
@@ -320,7 +422,126 @@ video {
 	margin-left: 4px;
 	right: 1%;
 	background: #9FFFAD;
-	font-family: Courier;
 	position: absolute;
 	display: none;
+}
+
+#ewf-bw {
+	width: 78%;
+	height: 96.5%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 1%;
+	background: #9FFFAD;
+	position: absolute;
+	display: none;
+	overflow: scroll;
+}
+
+#ewf-eu {
+	width: 78%;
+	height: 96.5%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 1%;
+	background: #9FFFAD;
+	position: absolute;
+	display: none;
+	overflow: scroll;
+}
+
+#ewf-faces {
+	width: 78%;
+	height: 96.5%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 1%;
+	background: #9FFFAD;
+	position: absolute;
+	display: none;
+	overflow: scroll;
+}
+
+#ewf-g {
+	width: 78%;
+	height: 96.5%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 1%;
+	background: #9FFFAD;
+	position: absolute;
+	display: none;
+	overflow: scroll;
+}
+
+#ewf-half {
+	width: 78%;
+	height: 96.5%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 1%;
+	background: #9FFFAD;
+	position: absolute;
+	display: none;
+	overflow: scroll;
+}
+
+#ewf-lg {
+	width: 78%;
+	height: 96.5%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 1%;
+	background: #9FFFAD;
+	position: absolute;
+	display: none;
+	overflow: scroll;
+}
+
+#ewf-pl {
+	width: 78%;
+	height: 96.5%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 1%;
+	background: #9FFFAD;
+	position: absolute;
+	display: none;
+	overflow: scroll;
+}
+
+#ewf-s {
+	width: 78%;
+	height: 96.5%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 1%;
+	background: #9FFFAD;
+	position: absolute;
+	display: none;
+	overflow: scroll;
+}
+
+#ewf-ted {
+	width: 78%;
+	height: 96.5%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 1%;
+	background: #9FFFAD;
+	position: absolute;
+	display: none;
+	overflow: scroll;
+}
+
+#ewf-tp {
+	width: 78%;
+	height: 96.5%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 1%;
+	background: #9FFFAD;
+	position: absolute;
+	display: none;
+	overflow: scroll;
 }
