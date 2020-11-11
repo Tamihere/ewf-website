@@ -67,6 +67,14 @@ video {
 	overflow: hidden;
 }
 
+.ewf-rightbox-work {
+	width: 80%;
+	height: 100%;
+	/*background: purple;*/
+	float: left;
+	overflow: scroll;
+}
+
 .ewf-rightbox-members {
 	width: 80%;
 	height: 100%;
@@ -346,6 +354,17 @@ video {
 	height: 94%;
 	margin: 0.9%;
 	padding: 0.9%;
+	background: cyan;
+	float: left;
+	overflow: scroll;
+	position: relative;
+}
+
+.ewf-poster-imagebox {
+	width: 47%;
+	margin: 0.9%;
+	padding: 0.9%;
+	left: 25%;
 	background: cyan;
 	float: left;
 	overflow: scroll;
