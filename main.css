@@ -564,3 +564,80 @@ video {
 	display: none;
 	overflow: scroll;
 }
+
+#ewf-boogie-wonderland {
+	width: 35%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 3%;
+	bottom: 1%;
+	background: #9FFFAD;
+	position: absolute;
+	display: none;
+}
+
+#ewf-lets-groove {
+	width: 35%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 3%;
+	bottom: 1%;
+	background: #9FFFAD;
+	position: absolute;
+	display: none;
+}
+
+#ewf-september {
+	width: 35%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 3%;
+	bottom: 1%;
+	background: #9FFFAD;
+	position: absolute;
+	display: none;
+}
+
+#ewf-on-your-face {
+	width: 35%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 3%;
+	bottom: 3%;
+	background: #9FFFAD;
+	position: absolute;
+	display: none;
+}
+
+#ewf-shining-star {
+	width: 35%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 3%;
+	bottom: 3%;
+	background: #9FFFAD;
+	position: absolute;
+	display: none;
+}
+
+#ewf-reasons {
+	width: 35%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 3%;
+	bottom: 3%;
+	background: #9FFFAD;
+	position: absolute;
+	display: none;
+}
+
+#ewf-sing-a-song {
+	width: 35%;
+	margin-top: 6px;
+	margin-left: 4px;
+	right: 3%;
+	bottom: 3%;
+	background: #9FFFAD;
+	position: absolute;
+	display: none;
+}
